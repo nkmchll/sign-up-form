@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+}
+
+.left-part{
+    background-image: url(https://images.unsplash.com/photo-1686841812861-d22f3ce23a58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0.65;
+}
+
+.title{
+    padding: 15px;
+    margin-top: 40%;
+    font-size: 5em;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.401);
+}
+
+.right-part{
+    background-color: rgb(220, 221, 221);
+    flex: 1;
+}
+
+.text{
+    padding: 30px;
+    font-size: 1.55em;
+    margin-top: 70px;
+    
+
+}
+
+.form-container{
+    background-color: rgb(238, 239, 239);
+    padding: 20px;
+}
+
+.form-container p{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+form {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+form .user-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 40px;
+    gap: 20px;
+    
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+form .user-details .input-box label{
+    font-size: 15px;
+    color: rgb(93, 93, 93);
+}
+
+form .user-details .input-box input{
+    height: 30px;
+    width: 100%;
+    margin: 10px 0 0px 12;
+}
+
+.bottom-part{
+    padding: 20px;
+}
+
+.bottom-part button{
+    background-color: rgb(84, 118, 84);
+    width: 200px;
+    font-size: 1em;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+.bottom-part p{
+    margin-left: 10px;
+}
+
